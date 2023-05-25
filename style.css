@@ -1,0 +1,97 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: black;
+    margin: 0;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+}
+
+header section h1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+main section {
+    max-width: 700px;
+    font-size: xx-large;
+    text-align: justify;
+}
+
+main section section h1 {
+    background-color: aliceblue;
+    opacity: 70%;
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+main section section p {
+    background-color: aliceblue;
+    opacity: 70%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+main section button {
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 100px;
+    margin-left: 200px;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+main img {
+    margin-right: 200px;
+    border-radius: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer section section {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+footer section section p {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer section section h1 {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
